@@ -416,4 +416,4 @@ function refreshData(reset=false){
   let controllerSheet = spreadsheet.getSheetByName('Controller');
   let cellToUpdate = controllerSheet.getRange(reset ? CONTROLLER_LAST_RESET_CELL : CONTROLLER_LAST_REFRESH_CELL);
   cellToUpdate.setValue((new Date()).toISOString());
-}This is a Chrome extension to manage Google Apps Script(GAS) code with your favorite SCM service(GitHub/GitHub enterprise/Bitbucket/GitLab).
+}
